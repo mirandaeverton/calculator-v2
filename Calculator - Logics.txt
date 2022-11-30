@@ -1,0 +1,48 @@
+Estados
+	valor acumulado(anterior)
+	valor atual (a ser digitado)
+	operação anterior
+	operação atual
+	resultado atual
+	
+	
+	Display
+		Trabalha com string
+	
+	CE
+		Valor acumulado = 0
+		valor atual = 0
+		Operação anterior = undefined
+		Operação atual  = undefined
+	
+	C
+		Valor atual = 0
+	
+	Backspace
+		Valor atual = Valor atual - último caracter
+	
+	Soma
+		Valor acumulado = Valor atual
+		Operação atual = +
+		
+	
+	Subtração
+		Valor acumulado = Valor atual
+		Operação atual = -
+		
+	Multiplicação
+		Valor acumulado = Valor atual
+		Operação atual = *
+		
+	Divisão
+		Valor acumulado = Valor atual
+		Operação atual = /
+		
+	Igual
+		Resultado = Valor acumulado | Operação atual | Valor atual
+	
+	Número
+		Se Operação atual != undefined || Valor atual == 0
+			Valor atual = Número
+		Senão
+			Valor atual = String(Valor atual + Número)
